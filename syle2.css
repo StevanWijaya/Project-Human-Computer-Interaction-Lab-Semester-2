@@ -1,0 +1,109 @@
+.wrapper{
+    width: 1000px;
+    margin:auto;
+    position:relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #112B3C;
+}
+
+.menu{
+    float:right;
+}
+
+nav{
+    width:100%;
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    position:sticky;
+    position:-webkit-sticky;
+    top: 0;
+    background: #7F8487;
+    z-index: 1
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align:center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+body{
+    background-image: url('https://wallpapercave.com/wp/wp5721725.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+section{
+    margin: auto;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 45px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #242F9B;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #E3FCBF;
+}
+
+h3{ 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #E8F9FD;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color:aqua
